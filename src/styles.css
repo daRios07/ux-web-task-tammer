@@ -79,4 +79,15 @@ body {
     border-radius: 0.3rem;
     overflow: auto;
     z-index: 2;
-  }
+}
+
+h3 {
+    color: var(--orange);
+}
+
+.full-img {
+    background-image: url("./assets/background.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
