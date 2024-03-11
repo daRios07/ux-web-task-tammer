@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+:root {
+    --orange: #F07001;
+    --black: #000000; 
+    --orange10: #ffce82; 
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.color-primario {
+    color: #F07001; /* Ejemplo de código hexadecimal */
+}
+
+.nav-link {
+    color: #79767D; /* Cambia el color al que desees */
+}
+
+.nav-link.active {
+    color: #000000; /* Cambia el color al que desees */
+    font-weight: bold; /* Agrega negrita */
+}
+
+.logo-img {
+    margin: 37px
+}
+
+.top-space {
+    margin-top: 100px
+}
+
+/* Aplicar el nuevo color primario a los elementos relevantes */
+.btn-primary {
+    color: #fff;
+    background-color: var(--orange);
+    border-color: var(--orange);
+}
+
+/* Opcionalmente, puedes ajustar los estilos para los estados de hover y focus */
+.btn-primary:hover,
+.btn-primary:focus {
+  color: #000;
+  background-color: var(--orange10); /* Nuevo color de fondo para hover y focus */
+  border-color: var(--orange10); /* Nuevo color de borde para hover y focus */
+}
+
+.btn-outline-primary {
+    color: var(--black); /* Color del texto */
+    border-color: var(--orange); /* Color del borde */
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  color: #000; /* Color del texto para hover y focus */
+  background-color: var(--orange10); /* Color de fondo para hover y focus */
+  border-color: var(--orange10); /* Color del borde para hover y focus */
+}
