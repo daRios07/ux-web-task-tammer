@@ -1,0 +1,53 @@
+<!-- Principal -->
+<div class="bg-image" 
+     style="background-image: url('../../assets/background.svg');
+height: 678px">
+    <div class="container" style="background-color:#FFFBFF">
+        <div class="row row-gap-3">
+            <div class="col-2 full-img">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                <a routerLink="/statistics" routerLinkActive="active" ariaCurrentWhenActive="page" class="nav-link">Estadísticas</a>
+                </li>
+                <li class="nav-item">
+                <a routerLink="/planner" routerLinkActive="active" ariaCurrentWhenActive="page" class="nav-link">Planeador</a>
+                </li>
+                <li class="nav-item">
+                <a routerLink="/trophies" routerLinkActive="active" ariaCurrentWhenActive="page" class="nav-link">Trofeos</a>
+                </li>
+                <li class="nav-item">
+                <a routerLink="/settings" routerLinkActive="active" ariaCurrentWhenActive="page" class="nav-link active" aria-current="page">Configuración</a>
+                </li>
+            </ul>
+            </div>
+            <div class="col-10">
+                <h1>Configuración</h1>
+                <div class="list-group">
+                    <div class="card-header">
+                        Planeador
+                    </div>
+                    <a href="/planner" class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                                <label class="form-check-label" for="flexSwitchCheckChecked"></label>
+                            </div>
+                            <h5 class="mb-1">Conectar google calendar</h5>
+                        </div>
+                        <small class="text-muted">El calendario de micorreo&#64;gmail.com esta sincronizado</small>
+                    </a>
+                    <button type="button" class="list-group-item list-group-item-action">Cambiar colores de las actividades</button>
+
+                    <div class="card-header">
+                        Cuenta
+                    </div>
+                    <button type="button" class="list-group-item list-group-item-action">Cambiar correo</button>
+                    <button type="button" class="list-group-item list-group-item-action">Cambiar contraseña</button>
+                    <button routerLink="/login" type="button" class="list-group-item list-group-item-action active">Cerrar sesión</button>
+                    <button routerLink="/login" type="button" class="list-group-item list-group-item-action">Eliminar cuenta</button>
+                  </div>
+            </div>
+            
+        </div>
+    </div>
+</div>  
