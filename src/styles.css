@@ -14,6 +14,10 @@ body {
     color: #F07001; /* Ejemplo de código hexadecimal */
 }
 
+.nav {
+    padding-top: 24px;
+}
+
 .nav-link {
     color: #79767D; /* Cambia el color al que desees */
 }
@@ -79,6 +83,12 @@ body {
     border-radius: 0.3rem;
     overflow: auto;
     z-index: 2;
+}
+
+
+h1 {
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 h3 {
